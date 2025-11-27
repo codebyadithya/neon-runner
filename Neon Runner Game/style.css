@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  background: #000;
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+}
+
+#gameCanvas {
+  display: block;
+  background: radial-gradient(circle at center, #050505, #000);
+}
+
+button {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 18px 40px;
+  background: black;
+  border: 2px solid #0ff;
+  color: #0ff;
+  font-size: 22px;
+  letter-spacing: 2px;
+  cursor: pointer;
+  border-radius: 8px;
+  text-shadow: 0 0 10px #0ff;
+  box-shadow: 0 0 20px #0ff;
+}
+
+button:hover {
+  background: #001a1a;
+}
